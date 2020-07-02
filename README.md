@@ -9,3 +9,10 @@ then gem install cucumber<br>
 To Run the code<br>
 From root folder open cmd<br>
 run: cucumber -p @wip (As we are using .yml file we are running using cucumber profiles check for other commands there)<br>
+
+<br>
+<br>
+
+Need to work on:<br>
+1. Screenshots Fixing.<br>
+2. POM Model <br>
