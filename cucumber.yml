@@ -1,0 +1,9 @@
+custom: -t @Custom_Screen --format html --out report.html --format pretty
+home: -t @home --format html --out report.html --format pretty
+main: -t @main_screen --format html --out report.html --format pretty
+wip: -t @wip --format html --out report.html --format pretty
+ges: -t @gestures --format html --out report.html --format pretty
+
+
+strict: -t @Custom_Screen -t @home --format html --out report.html --format pretty
+regression: -t @Custom_Screen, @home --format html --out report.html --format pretty
